@@ -1,0 +1,32 @@
+{
+  "$or": [
+    {
+      "users": []
+    },
+    {
+      "$and": [
+        {
+          "users": {
+            "$elemMatch": {
+              "$or": [
+                {
+                  "user": "admin",
+                  "db": "admin"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "atype": {
+            "$in": [
+              "createCollection",
+              "createIndex",
+              "createUser"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
