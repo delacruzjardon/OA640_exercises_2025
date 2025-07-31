@@ -1,0 +1,13 @@
+public_key="pqnxkezr"
+private_key="f8f07ab2-b1c4-4f0b-914a-f7c2f82f4e07"
+project_id="688b7a59f6f95e0fc117d37b"
+cluster_name="tfvdj"
+cloud_provider="AWS"
+region="EU_WEST_1"
+region2 = "US_EAST_2"
+mongodbversion="8"
+dbuser="dbuser"
+dbuser_password="dbpassword"
+database_name="test"
+ip_address="34.72.231.33"
+point_in_time_utc_seconds=1753992179
